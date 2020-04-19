@@ -44,6 +44,9 @@
             <li class="nav-item">
                 <a class="nav-link" href="{{ url('/eloquent-cheat-sheet') }}">Eloquent Cheat Sheet<span class="sr-only">(current)</span></a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link" href="{{ url('/tinker') }}">Web Tinker<span class="sr-only">(current)</span></a>
+            </li>
             {{--
             <li class="nav-item">
                 <a class="nav-link" href="#">Features</a>
