@@ -30,7 +30,7 @@ class DummyDataTableSeeder extends Seeder
     {
         $this->command->info('Creating countries...');
 
-        for ($i = 1; $i < 10; $i++) {
+        for ($i = 1; $i < 5; $i++) {
             Country::create([
                 'name' => 'Country ' . $i,
             ]);

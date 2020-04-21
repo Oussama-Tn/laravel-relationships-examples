@@ -14,4 +14,9 @@ class Country extends Model
     {
         return $this->hasMany(User::class);
     }
+
+    public function purchaseOrders()
+    {
+        return $this->hasManyThrough(PurchaseOrder::class, User::class);
+    }
 }

@@ -2,19 +2,24 @@
 
 # Laravel Relationships Examples
 
-Models
+* **Models**
 
-```text
-Country
-User
-ProductCategory
-Product
-PurchaseOrder
-ProductPurchaseOrder (Pivot)
-```
+    ```text
+    Country
+    User
+    ProductCategory
+    Product
+    PurchaseOrder
+    ProductPurchaseOrder (Pivot)
+    ```
+
+
+* **Database Schema**
 
 ![DB Schema](public/images/db.png)
 
 
 
+* [Laravel Web Tinker](/tinker): Test your queries in the browser
 * [Eloquent Cheat Sheet](md/eloquent-cheat-sheet.md)
+
