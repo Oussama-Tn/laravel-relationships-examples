@@ -22,4 +22,4 @@
 
 * [Laravel Web Tinker](/tinker): Test your queries in the browser
 * [Eloquent Cheat Sheet](md/eloquent-cheat-sheet.md)
-
+* [Testing Models](md/testing.md)

@@ -3,6 +3,7 @@
 /** @var \Illuminate\Database\Eloquent\Factory $factory */
 
 use App\PurchaseOrder;
+use App\User;
 use Faker\Generator as Faker;
 /*
 |--------------------------------------------------------------------------
@@ -17,7 +18,7 @@ use Faker\Generator as Faker;
 
 $factory->define(PurchaseOrder::class, function (Faker $faker) {
     return [
-        'user_id' => null,
+        'user_id' => factory(User::class),
         'date' => $faker->dateTimeBetween('-5 months', '-3 days'),
     ];
 });

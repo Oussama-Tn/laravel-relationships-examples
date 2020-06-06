@@ -13,5 +13,13 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::group([
+    'prefix' => 'scaling',
+], function () {
+    Route::get('/eager-loading', 'ScalingController@eagerLoading');
+    Route::get('/caching-query-result', 'ScalingController@cachingQueryResult');
+});
+
+
 Route::get('/{md?}', 'MarkdownController');
 
